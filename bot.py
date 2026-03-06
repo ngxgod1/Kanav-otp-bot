@@ -6,11 +6,10 @@ import phonenumbers
 from phonenumbers import geocoder
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
-BOT_TOKEN = "BOT TOKEN"
-CHAT_ID = GROUP ID
-
-API_URL = "API URL"
-TOKEN = "API TOKEN"
+BOT_TOKEN = "8691645706:AAHDjAlWmKBqwO6tnIrfoCsLyDgpesfSlPM"
+CHAT_ID = -1003648566248
+API_URL = "http://147.135.212.197/crapi/time/viewstats"
+TOKEN = "RFZWNEVBdlJ7iWhFfGZYan1UgWFqZIOGX2KChVxjmFt7aZVza4w="
 
 bot = telegram.Bot(token=BOT_TOKEN)
 
@@ -114,7 +113,7 @@ while True:
 """
 
             keyboard = [
-                [InlineKeyboardButton("📱 Numbers Channel", url="https://t.me/NumOTPV1BOT")]
+                [InlineKeyboardButton("📱 Numbers Channel", url="https://t.me/Babu_Number")]
             ]
 
             reply_markup = InlineKeyboardMarkup(keyboard)
